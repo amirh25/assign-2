@@ -124,3 +124,58 @@ header{
     width: 1440px; height: 879px;
     
 }
+
+/* responsive header section and amburger button */
+@media screen and (max-width: 576px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .navigation,.btn1{
+      display: none;
+    }
+    .header-logo h2{
+        display: none;
+    }
+      
+    .toggle-menu:checked + .hamburger + .navigation {
+      display: flex;
+    }
+
+    /* banner section responsive */
+    
+    .banner-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .banner-description {
+        text-align: center; 
+        padding: 0 10px; 
+    }
+
+    .heading {
+        font-size: 2rem; 
+        line-height: 2.5rem;
+    }
+
+    .heading-text {
+        font-size: 1rem; 
+    }
+
+    .btn2 {
+        width: 150px; 
+        height: 45px; 
+    }
+
+    .ban-img img {
+        max-width: 100%; 
+        height: auto; 
+
+    } 
+
+}
