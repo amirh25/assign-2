@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+  }
+
+/* shared style */
+.display-flex{
+    display: flex; justify-content: space-around;
+}
+.secondary-color{
+    color: orange;
+}
+
+.sky-blue{
+    color: skyblue;
+}
+
+.max-width{
+    max-width: 1159px;
+    
+}
+/* share style end */
+
+
+/* Hide the checkbox */
+ .toggle-menu {
+    display: none;
+  } 
+  
+  /* Hamburger start */
+
+   .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+  } 
+
+  /* hamburger end */
+
+
+header{
+     margin: 0 auto; margin-top: 20px; 
+}
+.header-nav{
+    justify-content:space-between; align-items: center;
+}
+.nav-link{
+    text-decoration: none; 
+}
+.nav-links {
+    
+    gap: 30px; 
+    list-style: none; 
+}
+
+.heading-text{
+    font-size: 1.25rem;
+}
+
+.link-one{
+    color: orange;
+}
+
+.link-three{
+    color: #05D4DF;
+}
+.link-four{
+    color: #5D58EF;
+}
+.btn1{
+    background-color: orange; color: #FFFFFF;
+    border: none; border-radius: 8px; width: 197px; height:50px; 
+}
+/* header banner style */
+.banner-section{
+    display: flex; 
+     justify-content:center; align-items: center;
+    margin-top: 20px; height: 575px; gap:50px;
+}
+.banner-description{
+     
+     height: auto; width: auto; padding-left: 0px;
+}
+.empower{
+    color: orange;
+}
+.heading{
+    font-weight: 700;
+    font-size: 3.5rem; line-height: 3.8rem;
+}
+
+.btn2{
+    background-color: black; color: white; 
+    border: none; border-radius: 8px; width: 197px; height:50px;
+}
+
+.ban-img img{
+     height: 575px;; width: 469px;; padding-right: 0px;
+}
+
+.heading-text{
+    font-size: 1.25rem; font-weight: lighter;
+    padding-top:2px;
+}
+
+/* banner header end */
+
+/* main section starts here */
+.main-one{
+    background-image:url('../assets/bg.png');
+   
+    width: 1440px; height: 879px;
+    
+}
